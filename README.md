@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+In this project, let's build a Letters Calculator by applying the concepts we have learned till now.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Refer to the image below:
 
-## Available Scripts
+![image](https://github.com/bukka5sandhya/React-Js-Letters-Calculator/assets/133884532/2b594e41-3518-4026-b34b-b4f791a71979)
 
-In the project directory, you can run:
+https://assets.ccbp.in/frontend/content/react-js/letters-calculator-output-v2.gif
 
-### `npm start`
+Design Files
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Click to view
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Extra Small (Size < 576px), Small (Size >= 576px), Medium (Size >= 768px)
 
-### `npm test`
+Large (Size >= 992px) and Extra Large (Size >= 1200px)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Set Up Instructions
 
-### `npm run build`
+Click to view
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Download dependencies by running npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start up the app using npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Completion Instructions
 
-### `npm run eject`
+Functionality to be added
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The app must have the following functionalities
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+When a non-empty value is provided in the input, then the count of letters provided should be displayed
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Implementation Files
 
-## Learn More
+Use these files to complete the implementation:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+src/components/LettersCalculator/index.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+src/components/LettersCalculator/index.css
 
-### Code Splitting
+Quick Tips
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Click to view
 
-### Analyzing the Bundle Size
+You can use the below outline CSS property for buttons and input elements to remove the highlighting when the elements are clicked
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Resources
 
-### Making a Progressive Web App
+Image URLs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+https://assets.ccbp.in/frontend/react-js/stop-watch-with-calculator-img.png alt should be letters calculator
 
-### Advanced Configuration
+Colors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Hex: #1d976c
 
-### Deployment
+Hex: #93f9b9
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Hex: #ffffff
 
-### `npm run build` fails to minify
+Hex: #e4e7eb
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Hex: #219a6f
+
+Font-families
+
+Roboto
+
+Things to Keep in Mind
+
+All components you implement should go in the src/components directory.
+
+Don't change the component folder names as those are the files being imported into the tests.
+
+Do not remove the pre-filled code
+
+Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
